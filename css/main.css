@@ -1,0 +1,26 @@
+*,*::after,*::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body{font-family:Arial, Verdana, sans-serif}
+.container .block{
+
+	position: absolute;
+	z-index: 1;
+
+	min-height:200px;min-width:200px;max-width:300px;color:white;padding:0.5em;background-color:#333;border:0.1em solid #DDD}
+.container .block h2{margin:0;font-weight:normal}
+.container .block.small{
+
+	bottom: 0;
+	right: 0;
+
+	min-height:auto;min-width:auto;width:100px;height:100px}
+.container .bg-blue{
+	position: relative;
+	background-color:blue}
+.container .bg-green{
+	background-color:green}
+.container .bg-purple{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	background-color:purple}
